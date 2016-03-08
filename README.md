@@ -35,20 +35,25 @@ Control 4 stepper motors and 11 micro servos
 
 
 # Technical Specs
+
 ![](http://i.imgur.com/XcjDVrn.jpg)
+
 ![](http://i.imgur.com/kxzg2lp.jpg)
 # Arduino Compatible
 
 ZeroPi is an Arduino zero compatible board. It is based on ATSAMD21G18, 32-Bit ARM Cortex M0+ microcontroller (Arduino zero CPU). This represent a big step towards greater computing power when compared to the existing solution based on 8-bit MCU. ZeroPi can be programmed using the Arduino IDE, giving you access to a wide range of easy to use libraries. The example codes will be provided for ZeroPi specific functions such as encoder readout and temperature monitoring.
 
 Arduino IDE Programming
+
 ![](http://i.imgur.com/3vPIVoa.png)
 # Raspberry Pi Compatible
 
 By simply connecting Raspberry Pi to ZeroPi (just plug in the RPI connector), you will discover countless features, such as full tablet control, wireless control, Bluetooth and much more. You can install a web interface to control the motors and servos directly. It even can achieve interface with Java Script.
 
 ZeroPi with Raspberry Pi
+
 ![](http://i.imgur.com/ymk4XEn.jpg)
+
 ![](http://i.imgur.com/6gnuXR4.gif)
 
 
