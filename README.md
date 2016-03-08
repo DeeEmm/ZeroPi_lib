@@ -5,12 +5,12 @@ This library is v1.0.0, it is build on 2016/03/05. If you have any comments you 
 
 ### How to use
 
-Install the driver and package as introduction <01 Introduction to ZeroPi and Driver Installation EN.pdf> in path https://github.com/ZeroPiProject/ZeroPi_lib/tree/master/Instruction/English
-Download the source from the git https://github.com/ZeroPiProject/ZeroPi_lib
-copy the ZeroPi folder to your arduino default library. Your Arduino library folder should now look like this
+ * Install the driver and package as introduction <01 Introduction to ZeroPi and Driver Installation EN.pdf> in path https://github.com/ZeroPiProject/ZeroPi_lib/tree/master/Instruction/English
+ * Download the source from the git https://github.com/ZeroPiProject/ZeroPi_lib
+ * copy the ZeroPi folder to your arduino default library. Your Arduino library folder should now look like this
 (on Windows): [arduino installation directory]\libraries\ZeroPi\src
 (On MACOS): [arduino Package Contents]\contents\Jave\libraries\ZeroPi\src
-Open the Arduino Application. (If it's already open, you will need to restart it to see changes.)
+ * Open the Arduino Application. (If it's already open, you will need to restart it to see changes.)
 Click "File-> Examples". Here are some test programs in ZeroPi-> example.
 
 -----------------
