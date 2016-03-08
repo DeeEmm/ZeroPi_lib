@@ -62,7 +62,7 @@ ZeroPi is an Arduino zero compatible board. It is based on ATSAMD21G18, 32-Bit A
 
 Arduino IDE Programming
 
-![](http://i.imgur.com/3vPIVoa.png)
+![](http://i.imgur.com/utc0b9r.jpg)
 # Raspberry Pi Compatible
 
 By simply connecting Raspberry Pi to ZeroPi (just plug in the RPI connector), you will discover countless features, such as full tablet control, wireless control, Bluetooth and much more. You can install a web interface to control the motors and servos directly. It even can achieve interface with Java Script.
