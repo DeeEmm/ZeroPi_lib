@@ -5,7 +5,6 @@ This library is v1.0.0, it is build on 2016/03/05. If you have any comments you 
 
 ### How to use
  * Setup your Arduino IDE for ZeroPi ( https://github.com/ZeroPiProject/ZeroPi_package )
- * Install the driver and package as introduction <01 Introduction to ZeroPi and Driver Installation EN.pdf> in path https://github.com/ZeroPiProject/ZeroPi_lib/tree/master/Instruction/English
  * Download the source from the git https://github.com/ZeroPiProject/ZeroPi_lib
  * copy the ZeroPi folder to your arduino default library. Your Arduino library folder should now look like this
   * (on Windows): [arduino installation directory]\libraries\ZeroPi\src
