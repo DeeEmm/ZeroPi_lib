@@ -1,3 +1,20 @@
+# Get Start
+This repository is for ZeroPi libraries and example code.
+
+This library is v1.0.0, it is build on 2016/03/05. If you have any comments you can contact on Pull requests or send mail to myan@makeblock.cc.
+
+How to use:
+
+Install the driver and package as introduction <01 Introduction to ZeroPi and Driver Installation EN.pdf> in path https://github.com/ZeroPiProject/ZeroPi_lib/tree/master/Instruction/English
+Download the source from the git https://github.com/ZeroPiProject/ZeroPi_lib
+copy the ZeroPi folder to your arduino default library. Your Arduino library folder should now look like this
+(on Windows): [arduino installation directory]\libraries\ZeroPi\src
+(On MACOS): [arduino Package Contents]\contents\Jave\libraries\ZeroPi\src
+Open the Arduino Application. (If it's already open, you will need to restart it to see changes.)
+Click "File-> Examples". Here are some test programs in ZeroPi-> example.
+
+-----------------
+
 # ZeroPi
 ZeroPi is an Arduino Zero Compatible development kit for robotic motion structure systems. It uses Atmel SAMD21J18, 32-bit ARM Cortex M0+ as the MCU, which is fully compatible with the official Arduino Zero, Raspberry Pi and with more hardware resources dedicate for robot drive. ZeroPi can be applied to all kinds of application scenes such as 3D printer, tracked mobile robot and etc
 
@@ -59,20 +76,7 @@ ZeroPi with Raspberry Pi
 
 
 --------
-# Get Start
-This repository is for ZeroPi libraries and example code.
 
-This library is v1.0.0, it is build on 2016/03/05. If you have any comments you can contact on Pull requests or send mail to myan@makeblock.cc.
-
-How to use:
-
-Install the driver and package as introduction <01 Introduction to ZeroPi and Driver Installation EN.pdf> in path https://github.com/ZeroPiProject/ZeroPi_lib/tree/master/Instruction/English
-Download the source from the git https://github.com/ZeroPiProject/ZeroPi_lib
-copy the ZeroPi folder to your arduino default library. Your Arduino library folder should now look like this
-(on Windows): [arduino installation directory]\libraries\ZeroPi\src
-(On MACOS): [arduino Package Contents]\contents\Jave\libraries\ZeroPi\src
-Open the Arduino Application. (If it's already open, you will need to restart it to see changes.)
-Click "File-> Examples". Here are some test programs in ZeroPi-> example.
 
 
 
