@@ -95,16 +95,16 @@ PiStepper::PiStepper(int slot)
   setCurrentPosition(0);
   _enable_pin = zeropi_slots[slot-1].pin[0];
   _micro_step_pin1 = zeropi_slots[slot-1].pin[1];
-  _micro_step_pin1 = zeropi_slots[slot-1].pin[2];
-  _micro_step_pin1 = zeropi_slots[slot-1].pin[3];
+  _micro_step_pin2 = zeropi_slots[slot-1].pin[2];
+  _micro_step_pin3 = zeropi_slots[slot-1].pin[3];
   _step_data = zeropi_slots[slot-1].pin[4];
   _dir_data = zeropi_slots[slot-1].pin[5];
   pinMode(_dir_data, OUTPUT);
   pinMode(_step_data, OUTPUT);
   pinMode(_enable_pin, OUTPUT);
   pinMode(_micro_step_pin1, OUTPUT);
-  pinMode(_micro_step_pin1, OUTPUT);
-  pinMode(_micro_step_pin1, OUTPUT);
+  pinMode(_micro_step_pin2, OUTPUT);
+  pinMode(_micro_step_pin3, OUTPUT);
 }
 
 /**
@@ -189,8 +189,8 @@ void PiStepper::setpin(int slot)
   setCurrentPosition(0);
   _enable_pin = zeropi_slots[slot-1].pin[0];
   _micro_step_pin1 = zeropi_slots[slot-1].pin[1];
-  _micro_step_pin1 = zeropi_slots[slot-1].pin[2];
-  _micro_step_pin1 = zeropi_slots[slot-1].pin[3];
+  _micro_step_pin2 = zeropi_slots[slot-1].pin[2];
+  _micro_step_pin3 = zeropi_slots[slot-1].pin[3];
   _step_data = zeropi_slots[slot-1].pin[4];
   _dir_data = zeropi_slots[slot-1].pin[5];
   pinMode(_dir_data, OUTPUT);
